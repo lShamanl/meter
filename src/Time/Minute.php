@@ -11,5 +11,4 @@ class Minute
    const WEEK = self::DAY * 7;
    const MONTH = self::DAY * 30;
    const YEAR = self::MONTH * 30;
-
 }
