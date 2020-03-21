@@ -9,12 +9,18 @@
         }
     ],
     "description": "Библиотека для получения скалярных констант",
-    "require": {
-        "ext-json": "*"
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
     },
     "autoload": {
         "psr-4": {
             "lShamanl\\Meter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "lShamanl\\Meter\\": "tests/"
         }
     }
 }
